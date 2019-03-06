@@ -18,10 +18,10 @@ def move(my_history, their_history, my_score, their_score):
     Returns 'c' or 'b'. 
     '''
     
-    if their_history [-3:] == 'ccc':
-      return 'b'
-    elif their_history [-2:]  == 'cc':
-      return 'c'
+    if their_history[-3:] == 'ccc':
+        return 'b'
+    elif their_history[-2:]  == 'cc':
+        return 'c'
     else:
         return 'b'
-                
+        
